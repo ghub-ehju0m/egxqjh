@@ -365,7 +365,8 @@ a.but-appsto:hover {
 
 
 @media screen and (max-width: 1200px) {
-	/*###*/.pg-top .box-in {
+	/*###*/.pg-top .box-in,
+	/*###*/.pg-bot .box-in {
 		width: 800px;
 
 		/*###BACKGROUND-COLOR: RGBA(0, 255, 0, 0.2);*/
@@ -395,12 +396,28 @@ a.but-appsto:hover {
 		width: 185px;/*###212px*/
 		height: 61px;/*###70px*/
 	}
+
+	.sect-4 .box-in {
+		margin-top: -309px;/*###-354px*/
+	}
+
+	.sect-4 h4 {
+		margin-bottom: 42px;
+		font-size: 38px;
+	}
+
+	.pg-bot {
+		height: 141px;
+		margin-top: -141px;
+		padding-top: 57px;
+	}
 }
 
 
 
 @media screen and (max-width: 960px) {
-	/*###*/.pg-top .box-in {
+	/*###*/.pg-top .box-in,
+	/*###*/.pg-bot .box-in {
 		width: 680px;
 
 		/*###BACKGROUND-COLOR: RGBA(255, 0, 255, 0.2);*/
@@ -430,12 +447,28 @@ a.but-appsto:hover {
 		width: 157px;/*###212px*/
 		height: 52px;/*###70px*/
 	}
+
+	.sect-4 .box-in {
+		margin-top: -264px;/*###-354px*/
+	}
+
+	.sect-4 h4 {
+		margin-bottom: 36px;
+		font-size: 32px;
+	}
+
+	.pg-bot {
+		height: 121px;
+		margin-top: -121px;
+		padding-top: 43px;
+	}
 }
 
 
 
 @media screen and (max-width: 760px) {
-	/*###*/.pg-top .box-in {
+	/*###*/.pg-top .box-in,
+	/*###*/.pg-bot .box-in {
 		width: 100%;
 		padding: 0 40px;
 
@@ -466,12 +499,28 @@ a.but-appsto:hover {
 		width: 130px;/*###212px*/
 		height: 43px;/*###70px*/
 	}
+
+	.sect-4 .box-in {
+		margin-top: -219px;/*###-354px*/
+	}
+
+	.sect-4 h4 {
+		margin-bottom: 30px;
+		font-size: 27px;
+	}
+
+	.pg-bot {
+		height: 101px;
+		margin-top: -101px;
+		padding-top: 30px;
+	}
 }
 
 
 
 @media screen and (max-width: 480px) {
-	/*###*/.pg-top .box-in {
+	/*###*/.pg-top .box-in,
+	/*###*/.pg-bot .box-in {
 		padding: 0 20px;
 
 		/*###BACKGROUND-COLOR: RGBA(0, 0, 255, 0.2);*/
@@ -501,6 +550,21 @@ a.but-appsto:hover {
 		width: 106px;/*###212px*/
 		height: 35px;/*###70px*/
 	}
+
+	.sect-4 .box-in {
+		margin-top: -174px;/*###-354px*/
+	}
+
+	.sect-4 h4 {
+		margin-bottom: 24px;
+		font-size: 22px;
+	}
+
+	.pg-bot {
+		height: 81px;
+		margin-top: -81px;
+		padding-top: 17px;
+	}
 }
 
 
@@ -522,8 +586,7 @@ a.but-appsto:hover {
 @media screen and (max-width: 590px/*^^^*/) {
 	.sect-1 h2,
 	.sect-2 h3,
-	.sect-3 h4,
-	.sect-4 h4 {
+	.sect-3 h4 {
 		font-size: 27px;
 	}
 }
