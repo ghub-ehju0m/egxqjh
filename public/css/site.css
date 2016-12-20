@@ -247,19 +247,17 @@ a.but-appsto:hover {
 
 
 .sect-2 {
-	height: 788px;
-	padding-top: 77px;
-	background: rgb(220, 243, 245) url('../img/sec_2.jpg') 50% 50% no-repeat;
+	height: 787px;
+	padding: 79px 200px 0px 200px;
+	background: rgb(220, 243, 245) url('../img/sec_2.jpg') 50% 287px no-repeat;
+	text-align: center;
 }
 
-.sect-2 .sect-in {
-
-	/*###BACKGROUND-COLOR: CYAN;*/
-}
+/*###.sect-2 .sect-in {
+}*/
 
 .sect-2 h3 {
-
-	/*###BACKGROUND-COLOR: ORANGE;*/
+	margin-bottom: 20px;
 }
 
 
@@ -275,6 +273,8 @@ a.but-appsto:hover {
 
 .sect-3 .sect-in {
 	width: 740px;
+
+	/*###BACKGROUND-COLOR: CYAN;*/
 }
 
 .sect-3 h4 {
@@ -282,6 +282,8 @@ a.but-appsto:hover {
 	text-align: center;
 	font-size: 32px;
 	/*###color: rgb(233, 124, 15);*/
+
+	/*###BACKGROUND-COLOR: ORANGE;*/
 }
 
 .sect-3 p {
