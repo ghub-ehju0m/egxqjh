@@ -141,6 +141,7 @@ a:hover {
 }
 
 .pg-top {
+	min-height: 640px;
 	padding: 52.25% 0 0 0;
 	background: url('../img/pg_top.jpg') 50% 0 no-repeat;
 	background-size: cover;
@@ -203,6 +204,7 @@ a.but-appsto {
 	height: 70px;
 	margin: 0 auto;
 	background: url('../img/store_button_1.png') 0 0 no-repeat;
+	background-size: cover;
 	-webkit-transition: opacity 0.4s linear;
 	-o-transition: opacity 0.4s linear;
 	transition: opacity 0.4s linear;
@@ -362,23 +364,150 @@ a.but-appsto:hover {
 
 
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
+	/*###*/.pg-top .box-in {
+		width: 800px;
+
+		/*###BACKGROUND-COLOR: RGBA(0, 255, 0, 0.2);*/
+	}
+
+	.pg-top {
+		min-height: 550px;
+	}
+
+	.pg-top .box-in {
+		padding: 60px 12.5% 0 12.5%;
+	}
+
+	.pg-top h1 {
+		margin-bottom: 50px;
+		padding-top: 120px;
+		font-size: 48px;
+		background-size: 105px 105px;
+	}
+
+	.pg-top h3 {
+		margin-bottom: 54px;
+		font-size: 21px;
+	}
+
+	a.but-appsto {
+		width: 185px;/*###212px*/
+		height: 61px;/*###70px*/
+	}
 }
+
+
+
+@media screen and (max-width: 960px) {
+	/*###*/.pg-top .box-in {
+		width: 680px;
+
+		/*###BACKGROUND-COLOR: RGBA(255, 0, 255, 0.2);*/
+	}
+
+	.pg-top {
+		min-height: 460px;
+	}
+
+	.pg-top .box-in {
+		padding: 40px 10% 0 10%;
+	}
+
+	.pg-top h1 {
+		margin-bottom: 42px;
+		padding-top: 105px;
+		font-size: 42px;
+		background-size: 90px 90px;
+	}
+
+	.pg-top h3 {
+		margin-bottom: 46px;
+		font-size: 18px;
+	}
+
+	a.but-appsto {
+		width: 157px;/*###212px*/
+		height: 52px;/*###70px*/
+	}
+}
+
+
 
 @media screen and (max-width: 760px) {
+	/*###*/.pg-top .box-in {
+		width: 100%;
+		padding: 0 40px;
+
+		/*###BACKGROUND-COLOR: RGBA(0, 255, 255, 0.2);*/
+	}
+
+	.pg-top {
+		min-height: 370px;
+	}
+
+	.pg-top .box-in {
+		padding-top: 20px;
+	}
+
+	.pg-top h1 {
+		margin-bottom: 36px;
+		padding-top: 90px;
+		font-size: 36px;
+		background-size: 75px 75px;
+	}
+
+	.pg-top h3 {
+		margin-bottom: 38px;
+		font-size: 15px;
+	}
+
+	a.but-appsto {
+		width: 130px;/*###212px*/
+		height: 43px;/*###70px*/
+	}
 }
 
+
+
 @media screen and (max-width: 480px) {
+	/*###*/.pg-top .box-in {
+		padding: 0 20px;
+
+		/*###BACKGROUND-COLOR: RGBA(0, 0, 255, 0.2);*/
+	}
+
+	.pg-top {
+		min-height: 330px;
+	}
+
+	.pg-top .box-in {
+		padding-top: 20px;
+	}
+
+	.pg-top h1 {
+		margin-bottom: 30px;
+		padding-top: 75px;
+		font-size: 30px;
+		background-size: 60px 60px;
+	}
+
+	.pg-top h3 {
+		margin-bottom: 30px;
+		font-size: 12px;
+	}
+
+	a.but-appsto {
+		width: 106px;/*###212px*/
+		height: 35px;/*###70px*/
+	}
 }
+
+
 
 
 
 @media screen and (max-width: 1020px/*^^^*/) {
-	.box-in {
-		width: 100%;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
 }
 
 @media screen and (max-width: 900px/*^^^*/) {
@@ -388,14 +517,6 @@ a.but-appsto:hover {
 }
 
 @media screen and (max-width: 720px/*^^^*/) {
-	.pg-top h1 {
-		font-size: 32px;
-		background-size: 80px 80px;
-	}
-
-	.pg-top h3 {
-		font-size: 27px;
-	}
 }
 
 @media screen and (max-width: 590px/*^^^*/) {
