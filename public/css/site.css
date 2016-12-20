@@ -263,34 +263,21 @@ a.but-appsto:hover {
 
 
 .sect-3 {
-	height: 871px;
-	min-height: 195px;
-	padding-top: 87px;
-	padding-bottom: 180px;
-	background: url('../img/sec_3.jpg') 50% 50% no-repeat,
-				url('../img/sun_trail.png') 50% 50% no-repeat;
+	background: url('../img/sun_trail.png') 50% 186px no-repeat;
 }
 
 .sect-3 .sect-in {
-	width: 740px;
-
-	/*###BACKGROUND-COLOR: CYAN;*/
+	height: 871px;
+	padding: 341px 20px 30px 480px;
+	background: url('../img/sec_3.jpg') 0 102px no-repeat;
 }
 
 .sect-3 h4 {
-	margin-bottom: 6px;
-	text-align: center;
-	font-size: 32px;
-	/*###color: rgb(233, 124, 15);*/
-
-	/*###BACKGROUND-COLOR: ORANGE;*/
+	margin-bottom: 21px;
 }
 
-.sect-3 p {
-	text-align: center;
-	line-height: 160%;
-	/*###color: rgb(153, 153, 153);*/
-}
+/*###.sect-3 p {
+}*/
 
 
 
@@ -306,6 +293,8 @@ a.but-appsto:hover {
 	text-align: center;
 	font-size: 32px;
 	color: rgb(255, 255, 255);
+
+	/*###BACKGROUND-COLOR: ORANGE;*/
 }
 
 .fin-call-2-act {
