@@ -277,13 +277,15 @@ a.but-appsto:hover {
 
 
 .sect-3 {
+	padding: 102px 0 120px 0;
 	background: url('../img/sun_trail.png') 50% 186px no-repeat;
 }
 
 .sect-3 .box-in {
-	height: 871px;
-	padding: 341px 20px 30px 480px;
-	background: url('../img/sec_3.jpg') 0 102px no-repeat;
+	height: 649px;
+	padding: 239px 0 0 480px;/*###239px 20px 0 480px*/
+	background: url('../img/sec_3.jpg') 0 0 no-repeat;
+	background-size: auto 100%;
 }
 
 .sect-3 h4 {
@@ -443,6 +445,19 @@ a.but-appsto:hover {
 		margin-bottom: 57px !important;
 	}
 
+	.sect-3 {
+		background-position: 50% 133px;
+	}
+
+	.sect-3 .box-in {
+		height: 519px;
+		padding: 191px 0 0 384px;
+	}
+
+	.sect-3 h4 {
+		margin-bottom: 18px;
+	}
+
 	.sect-4 .box-in {
 		margin-top: -309px;/*###-354px*/
 	}
@@ -517,6 +532,19 @@ a.but-appsto:hover {
 
 	.sect-2 p {
 		margin-bottom: 48px !important;
+	}
+
+	.sect-3 {
+		background-position: 50% 105px;
+	}
+
+	.sect-3 .box-in {
+		height: 441px;
+		padding: 163px 0 0 326px;
+	}
+
+	.sect-3 h4 {
+		margin-bottom: 16px;
 	}
 
 	.sect-4 .box-in {
@@ -603,6 +631,26 @@ a.but-appsto:hover {
 		margin-bottom: 36px !important;
 	}
 
+	.sect-3 {
+		background-position: 35% 150px;/*^^^*/
+	}
+
+	.sect-3 .box-in {
+		height: auto;/*^^^441px*/
+		padding: 0 0 63% 0;/*^^^163px 0 0 326px*/
+		background-position: 40% 100%;
+		background-size: 31.06% auto;
+		text-align: center;
+	}
+
+	.sect-3 h4 {
+		margin-bottom: 14px;
+	}
+
+	.sect-3 p {
+		margin-bottom: 18px !important;
+	}
+
 	.sect-4 .box-in {
 		margin-top: -219px;/*###-354px*/
 	}
@@ -680,6 +728,21 @@ a.but-appsto:hover {
 
 	.sect-2 p {
 		margin-bottom: 24px !important;
+	}
+
+	.sect-3 {
+		background-position: 40% 80px;/*^^^*/
+	}
+
+	.sect-3 .box-in {
+	}
+
+	.sect-3 h4 {
+		margin-bottom: 12px;
+	}
+
+	.sect-3 p {
+		margin-bottom: 15px !important;
 	}
 
 	.sect-4 .box-in {
