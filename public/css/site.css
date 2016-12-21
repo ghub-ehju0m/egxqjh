@@ -253,14 +253,17 @@ a.but-appsto:hover {
 
 
 .sect-2 {
-	height: 787px;
-	padding: 79px 0 0 0;/*###79px 200px 0 200px*/
-	background: rgb(220, 243, 245) url('../img/sec_2.jpg') 50% 287px no-repeat;
+	/*###height: 787px;*/
+	padding: 79px 0 45px 0;
+	background-color: rgb(220, 243, 245);
 	text-align: center;
 }
 
 .sect-2 .box-in {
-	padding: 0 70px 0 70px;/*^^^ !!! */
+	/*###height: 663px;*/
+	padding: 0 70px 526px 70px;/*= 455 + 71 */
+	background: url('../img/sec_2.jpg') 50% 100% no-repeat;
+	background-size: 93.3% auto;
 }
 
 .sect-2 h3 {
@@ -428,6 +431,10 @@ a.but-appsto:hover {
 		margin-bottom: 23px;
 	}
 
+	.sect-2 .box-in {
+		padding: 0 55px 421px 55px;/*= 455 + 71 */
+	}
+
 	.sect-4 .box-in {
 		margin-top: -309px;/*###-354px*/
 	}
@@ -494,6 +501,10 @@ a.but-appsto:hover {
 
 	.sect-1 h2 {
 		margin-bottom: 20px;
+	}
+
+	.sect-2 .box-in {
+		padding: 0 40px 358px 40px;/*= 455 + 71 */
 	}
 
 	.sect-4 .box-in {
@@ -571,6 +582,10 @@ a.but-appsto:hover {
 		margin-bottom: 17px;
 	}
 
+	.sect-2 .box-in {
+		padding: 0 25px 330px 25px;/*= 455 + 71 */
+	}
+
 	.sect-4 .box-in {
 		margin-top: -219px;/*###-354px*/
 	}
@@ -640,6 +655,10 @@ a.but-appsto:hover {
 
 	.sect-1 h2 {
 		margin-bottom: 14px;
+	}
+
+	.sect-2 .box-in {
+		padding: 0 10px 210px 10px;/*= 455 + 71 */
 	}
 
 	.sect-4 .box-in {
