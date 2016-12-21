@@ -169,9 +169,9 @@ a:hover {
 	-webkit-transform: translate3d(0, 0, 0);
 	-ms-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
-	-webkit-transition: opacity 0.6s linear 1.2s, -webkit-transform 0.6s linear 1.2s;
-	-o-transition: opacity 0.6s linear 1.2s, transform 0.6s linear 1.2s;
-	transition: opacity 0.6s linear 1.2s, transform 0.6s linear 1.2s;
+	-webkit-transition: opacity 0.2s linear 1.6s, -webkit-transform 0.6s linear 1.2s;
+	-o-transition: opacity 0.2s linear 1.6s, transform 0.6s linear 1.2s;
+	transition: opacity 0.2s linear 1.6s, transform 0.6s linear 1.2s;
 }
 
 .loading .pg-top .box-in {
@@ -219,7 +219,7 @@ a.but-appsto:hover {
 .sect h2,
 .sect h3,
 .sect h4 {
-	margin: 0 0 27px 0;
+	/*###margin: 0 0 27px 0;*/
 	font-size: 44px;
 	font-weight: bold;
 }
@@ -235,19 +235,32 @@ a.but-appsto:hover {
 
 
 
+.sect-1 {
+	padding: 29px auto 100px auto;
+}
+
 .sect-1 .box-in {
-	height: 778px;
-	padding: 233px 470px 30px 20px;
-	background: url('../img/sec_1.jpg') 100% 29px no-repeat;
+	height: 64.9%;/*###649px*/
+	padding: 204px 47% 0px 2%;
+	background: url('../img/sec_1.jpg') 100% 0px no-repeat;
+	background-size: auto 100%;
+}
+
+.sect-1 h2 {
+	margin: 0 0 27px 0;
 }
 
 
 
 .sect-2 {
 	height: 787px;
-	padding: 79px 200px 0px 200px;
+	padding: 79px 0 0px 0;/*###79px 200px 0px 200px*/
 	background: rgb(220, 243, 245) url('../img/sec_2.jpg') 50% 287px no-repeat;
 	text-align: center;
+}
+
+.sect-2 .box-in {
+	padding: 0 70px 0 70px;/*^^^ !!! */
 }
 
 .sect-2 h3 {
@@ -365,11 +378,10 @@ a.but-appsto:hover {
 
 
 @media screen and (max-width: 1200px) {
-	/*###*/.pg-top .box-in,
-	/*###*/.pg-bot .box-in {
+	.box-in {
 		width: 800px;
 
-		/*###BACKGROUND-COLOR: RGBA(0, 255, 0, 0.2);*/
+		BACKGROUND-COLOR: RGBA(255, 255, 0, 0.2) !important;/*###*/
 	}
 
 	.pg-top {
@@ -397,13 +409,18 @@ a.but-appsto:hover {
 		height: 61px;/*###70px*/
 	}
 
+	.sect h2,
+	.sect h3,
+	.sect h4 {
+		font-size: 38px;
+	}
+
 	.sect-4 .box-in {
 		margin-top: -309px;/*###-354px*/
 	}
 
 	.sect-4 h4 {
 		margin-bottom: 42px;
-		font-size: 38px;
 	}
 
 	.pg-bot {
@@ -416,11 +433,10 @@ a.but-appsto:hover {
 
 
 @media screen and (max-width: 960px) {
-	/*###*/.pg-top .box-in,
-	/*###*/.pg-bot .box-in {
+	.box-in {
 		width: 680px;
 
-		/*###BACKGROUND-COLOR: RGBA(255, 0, 255, 0.2);*/
+		BACKGROUND-COLOR: RGBA(255, 0, 255, 0.2) !important;/*###*/
 	}
 
 	.pg-top {
@@ -448,13 +464,18 @@ a.but-appsto:hover {
 		height: 52px;/*###70px*/
 	}
 
+	.sect h2,
+	.sect h3,
+	.sect h4 {
+		font-size: 32px;
+	}
+
 	.sect-4 .box-in {
 		margin-top: -264px;/*###-354px*/
 	}
 
 	.sect-4 h4 {
 		margin-bottom: 36px;
-		font-size: 32px;
 	}
 
 	.pg-bot {
@@ -467,12 +488,11 @@ a.but-appsto:hover {
 
 
 @media screen and (max-width: 760px) {
-	/*###*/.pg-top .box-in,
-	/*###*/.pg-bot .box-in {
+	.box-in {
 		width: 100%;
 		padding: 0 40px;
 
-		/*###BACKGROUND-COLOR: RGBA(0, 255, 255, 0.2);*/
+		BACKGROUND-COLOR: RGBA(0, 255, 255, 0.2) !important;/*###*/
 	}
 
 	.pg-top {
@@ -500,13 +520,18 @@ a.but-appsto:hover {
 		height: 43px;/*###70px*/
 	}
 
+	.sect h2,
+	.sect h3,
+	.sect h4 {
+		font-size: 27px;
+	}
+
 	.sect-4 .box-in {
 		margin-top: -219px;/*###-354px*/
 	}
 
 	.sect-4 h4 {
 		margin-bottom: 30px;
-		font-size: 27px;
 	}
 
 	.pg-bot {
@@ -519,11 +544,10 @@ a.but-appsto:hover {
 
 
 @media screen and (max-width: 480px) {
-	/*###*/.pg-top .box-in,
-	/*###*/.pg-bot .box-in {
+	.box-in {
 		padding: 0 20px;
 
-		/*###BACKGROUND-COLOR: RGBA(0, 0, 255, 0.2);*/
+		BACKGROUND-COLOR: RGBA(0, 0, 255, 0.2) !important;/*###*/
 	}
 
 	.pg-top {
@@ -551,13 +575,18 @@ a.but-appsto:hover {
 		height: 35px;/*###70px*/
 	}
 
+	.sect h2,
+	.sect h3,
+	.sect h4 {
+		font-size: 22px;
+	}
+
 	.sect-4 .box-in {
 		margin-top: -174px;/*###-354px*/
 	}
 
 	.sect-4 h4 {
 		margin-bottom: 24px;
-		font-size: 22px;
 	}
 
 	.pg-bot {
@@ -571,28 +600,10 @@ a.but-appsto:hover {
 
 
 
-@media screen and (max-width: 1020px/*^^^*/) {
-}
-
-@media screen and (max-width: 900px/*^^^*/) {
-}
-
-@media screen and (max-width: 780px/*^^^*/) {
-}
-
-@media screen and (max-width: 720px/*^^^*/) {
-}
-
-@media screen and (max-width: 590px/*^^^*/) {
-	.sect-1 h2,
-	.sect-2 h3,
-	.sect-3 h4 {
-		font-size: 27px;
-	}
-}
-
-@media screen and (max-width: 550px/*^^^*/) {
-}
-
-@media screen and (max-width: 490px/*^^^*/) {
-}
+/*^^^@media screen and (max-width: 1020px) {}*/
+/*^^^@media screen and (max-width: 900px) {}*/
+/*^^^@media screen and (max-width: 780px) {}*/
+/*^^^@media screen and (max-width: 720px) {}*/
+/*^^^@media screen and (max-width: 590px) {}*/
+/*^^^@media screen and (max-width: 550px) {}*/
+/*^^^@media screen and (max-width: 490px) {}*/
