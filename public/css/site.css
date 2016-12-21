@@ -240,9 +240,9 @@ a.but-appsto:hover {
 }
 
 .sect-1 .box-in {
-	height: 64.9%;/*###649px*/
-	padding: 204px 47% 0px 2%;
-	background: url('../img/sec_1.jpg') 100% 0px no-repeat;
+	height: 649px;
+	padding: 204px 470px 0 20px;
+	background: url('../img/sec_1.jpg') 100% 0 no-repeat;
 	background-size: auto 100%;
 }
 
@@ -254,7 +254,7 @@ a.but-appsto:hover {
 
 .sect-2 {
 	height: 787px;
-	padding: 79px 0 0px 0;/*###79px 200px 0px 200px*/
+	padding: 79px 0 0 0;/*###79px 200px 0 200px*/
 	background: rgb(220, 243, 245) url('../img/sec_2.jpg') 50% 287px no-repeat;
 	text-align: center;
 }
@@ -296,7 +296,7 @@ a.but-appsto:hover {
 	float: left;
 	width: 100%;
 	margin: -354px 0 0 0;/*###-37.25%*/
-	padding: 0px 22.5%;
+	padding: 0 22.5%;
 }
 
 .sect-4 h4 {
@@ -359,16 +359,16 @@ a.but-appsto:hover {
 }
 
 .bot-social a.ico-tw {
-	background-position: 0px 0px;
+	background-position: 0 0;
 }
 
 .bot-social a.ico-fb {
-	background-position: -48px 0px;
+	background-position: -48px 0;
 }
 
 .bot-social a.ico-appsto {
-	background-position: -96px 0px;
-	margin-right: 0px;
+	background-position: -96px 0;
+	margin-right: 0;
 }
 
 .bot-social a:hover {
@@ -381,7 +381,7 @@ a.but-appsto:hover {
 	.box-in {
 		width: 800px;
 
-		BACKGROUND-COLOR: RGBA(255, 255, 0, 0.2) !important;/*###*/
+		/*###BACKGROUND-COLOR: RGBA(255, 255, 0, 0.2) !important;*/
 	}
 
 	.pg-top {
@@ -415,6 +415,19 @@ a.but-appsto:hover {
 		font-size: 38px;
 	}
 
+	.sect p {
+		font-size: 18px;
+	}
+
+	.sect-1 .box-in {
+		height: 568px;/*###649px*/
+		padding: 178px 370px 0 0;/*###204px 470px 0 20px*/
+	}
+
+	.sect-1 h2 {
+		margin-bottom: 23px;
+	}
+
 	.sect-4 .box-in {
 		margin-top: -309px;/*###-354px*/
 	}
@@ -436,7 +449,7 @@ a.but-appsto:hover {
 	.box-in {
 		width: 680px;
 
-		BACKGROUND-COLOR: RGBA(255, 0, 255, 0.2) !important;/*###*/
+		/*###BACKGROUND-COLOR: RGBA(255, 0, 255, 0.2) !important;*/
 	}
 
 	.pg-top {
@@ -470,6 +483,19 @@ a.but-appsto:hover {
 		font-size: 32px;
 	}
 
+	.sect p {
+		font-size: 16px;
+	}
+
+	.sect-1 .box-in {
+		height: 487px;/*###649px*/
+		padding: 152px 310px 0 0;/*###204px 470px 0 20px*/
+	}
+
+	.sect-1 h2 {
+		margin-bottom: 20px;
+	}
+
 	.sect-4 .box-in {
 		margin-top: -264px;/*###-354px*/
 	}
@@ -488,11 +514,14 @@ a.but-appsto:hover {
 
 
 @media screen and (max-width: 760px) {
+	.sect {
+		padding: 40px 20px;
+	}
+
 	.box-in {
 		width: 100%;
-		padding: 0 40px;
 
-		BACKGROUND-COLOR: RGBA(0, 255, 255, 0.2) !important;/*###*/
+		/*###BACKGROUND-COLOR: RGBA(0, 255, 255, 0.2) !important;*/
 	}
 
 	.pg-top {
@@ -526,6 +555,22 @@ a.but-appsto:hover {
 		font-size: 27px;
 	}
 
+	.sect p {
+		font-size: 14px;
+	}
+
+	.sect-1 .box-in {
+		height: auto;/*###649px*/
+		padding: 0 0 424px 0;
+		background-position: 50% 100%;
+		background-size: auto 406px;
+		text-align: center;
+	}
+
+	.sect-1 h2 {
+		margin-bottom: 17px;
+	}
+
 	.sect-4 .box-in {
 		margin-top: -219px;/*###-354px*/
 	}
@@ -544,10 +589,13 @@ a.but-appsto:hover {
 
 
 @media screen and (max-width: 480px) {
-	.box-in {
-		padding: 0 20px;
+	.sect {
+		padding: 20px 10px;
+	}
 
-		BACKGROUND-COLOR: RGBA(0, 0, 255, 0.2) !important;/*###*/
+	.box-in {
+
+		/*###BACKGROUND-COLOR: RGBA(0, 0, 255, 0.2) !important;*/
 	}
 
 	.pg-top {
@@ -579,6 +627,19 @@ a.but-appsto:hover {
 	.sect h3,
 	.sect h4 {
 		font-size: 22px;
+	}
+
+	.sect p {
+		font-size: 12px;
+	}
+
+	.sect-1 .box-in {
+		padding: 0 0 340px 0;
+		background-size: auto 325px;
+	}
+
+	.sect-1 h2 {
+		margin-bottom: 14px;
 	}
 
 	.sect-4 .box-in {
