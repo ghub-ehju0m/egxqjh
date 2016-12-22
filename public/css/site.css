@@ -138,12 +138,13 @@ a:hover {
 	width: 1000px;
 	max-width: 100%;
 	margin: 0 auto;
+
+	/*###BACKGROUND-COLOR: RGBA(0, 255, 255, 0.2) !important;*/
 }
 
 .pg-top {
 	/*###min-height: 640px;*/
-	/*###padding: 52.25% 0 0 0;*/
-	padding: 80px 0 40px 0;
+	padding: 52.25% 0 0 0;
 	background: url('../img/pg_top.jpg') 50% 0 no-repeat;
 	background-size: cover;
 	opacity: 1;
@@ -164,9 +165,8 @@ a:hover {
 }
 
 .pg-top .box-in {
-	/*###margin-top: -52.25%;*/
-	/*###padding: 80px 15% 0 15%;*/
-	padding: 0 15%;
+	margin-top: -52.25%;
+	padding: 80px 15% 125px 15%;
 	opacity: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	-ms-transform: translate3d(0, 0, 0);
@@ -188,7 +188,7 @@ a:hover {
 	margin: 0 0 58px 0;
 	padding: 135px 0 0 0;
 	background: url('../img/logo.png') 50% 0 no-repeat;
-	font-size: 55px;/*###*/
+	font-size: 55px;
 	font-weight: bold;
 	color: rgb(255, 255, 255);
 }
@@ -393,22 +393,21 @@ a.but-appsto:hover {
 	.box-in {
 		width: 800px;
 
-		BACKGROUND-COLOR: RGBA(255, 255, 0, 0.2) !important;/*###*/
+		/*###BACKGROUND-COLOR: RGBA(255, 255, 0, 0.2) !important;*/
 	}
 
 	.pg-top {
 		/*###min-height: 550px;*/
-		padding: 60px 0 40px 0;
 	}
 
 	.pg-top .box-in {
-		padding: 0 12.5%;
+		padding: 60px 12.5% 120px 12.5%;
 	}
 
 	.pg-top h1 {
 		margin-bottom: 50px;/*###*/
-		padding-top: 130px;/*###120px*/
-		font-size: 48px;/*###*/
+		padding-top: 136px;/*###120px*/
+		font-size: 52px;/*###48px*/
 		/*###background-size: 105px 105px;*/
 	}
 
@@ -488,22 +487,21 @@ a.but-appsto:hover {
 	.box-in {
 		width: 680px;
 
-		BACKGROUND-COLOR: RGBA(255, 0, 255, 0.2) !important;/*###*/
+		/*###BACKGROUND-COLOR: RGBA(255, 0, 255, 0.2) !important;*/
 	}
 
 	.pg-top {
 		/*###min-height: 460px;*/
-		padding: 40px 0 40px 0;
 	}
 
 	.pg-top .box-in {
-		padding: 0 10%;
+		padding: 40px 10% 115px 10%;
 	}
 
 	.pg-top h1 {
 		margin-bottom: 42px;/*###*/
-		padding-top: 125px;/*###105px*/
-		font-size: 42px;/*###*/
+		padding-top: 136px;/*###105px*/
+		font-size: 52px;/*###42px*/
 		/*###background-size: 90px 90px;*/
 	}
 
@@ -587,22 +585,21 @@ a.but-appsto:hover {
 	.box-in {
 		width: 100%;
 
-		BACKGROUND-COLOR: RGBA(0, 255, 255, 0.2) !important;/*###*/
+		/*###BACKGROUND-COLOR: RGBA(0, 0, 255, 0.2) !important;*/
 	}
 
 	.pg-top {
 		/*###min-height: 370px;*/
-		padding: 19px 0 40px 0;
 	}
 
 	.pg-top .box-in {
-		/*###padding: 0;*/
+		padding: 19px 10% 110px 10%;
 	}
 
 	.pg-top h1 {
-		margin-bottom: 36px;/*###*/
-		padding-top: 125px;/*###90px*/
-		font-size: 36px;/*###*/
+		margin-bottom: 35px;/*###*/
+		padding-top: 138px;/*###90px*/
+		font-size: 48px;/*###36px*/
 		/*###background-size: 75px 75px;*/
 	}
 
@@ -731,7 +728,7 @@ a.but-appsto:hover {
 
 	.box-in {
 
-		BACKGROUND-COLOR: RGBA(0, 0, 255, 0.2) !important;/*###*/
+		/*###BACKGROUND-COLOR: RGBA(128, 0, 128, 0.2) !important;*/
 	}
 
 	.pg-top {
@@ -739,7 +736,7 @@ a.but-appsto:hover {
 	}
 
 	.pg-top .box-in {
-		/*###padding: 0;*/
+		padding: 19px 10% 105px 10%;
 	}
 
 	.pg-top h1 {
