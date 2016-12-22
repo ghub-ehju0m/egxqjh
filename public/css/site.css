@@ -218,15 +218,19 @@ a.but-appsto:hover {
 
 
 
+.sect {
+	position: relative;
+}
+
 .sect h2,
 .sect h3,
 .sect h4 {
-	font-size: 44px;
+	font-size: 44px;/*###*/
 	font-weight: bold;
 }
 
 .sect p {
-	font-size: 20px;
+	font-size: 20px;/*###*/
 	line-height: 160%;
 }
 
@@ -248,7 +252,7 @@ a.but-appsto:hover {
 }
 
 .sect-1 h2 {
-	margin: 0 0 27px 0;
+	margin: 0 0 27px 0;/*###*/
 }
 
 
@@ -295,7 +299,7 @@ a.but-appsto:hover {
 
 
 .sect-4 {
-	position: relative;
+	/*###position: relative;*/
 	padding: 37.25% 0 0 0 !important;
 	background: url('../img/pg_bottom.jpg') 50% 100% no-repeat;
 	background-size: cover;
@@ -425,20 +429,21 @@ a.but-appsto:hover {
 	.sect h2,
 	.sect h3,
 	.sect h4 {
-		font-size: 38px;
+		font-size: 42px;/*###38px*/
+		line-height: 116.67%;/*###120%*/
 	}
 
 	.sect p {
-		font-size: 18px;
+		/*###font-size: 20px;18px*/
 	}
 
 	.sect-1 .box-in {
 		height: 568px;/*@@@649px*/
-		padding: 178px 370px 0 0;
+		padding: 120px 380px 0 0;
 	}
 
 	.sect-1 h2 {
-		margin-bottom: 23px;
+		/*###margin-bottom: 27px;*/
 	}
 
 	.sect-2 .box-in {
@@ -519,20 +524,22 @@ a.but-appsto:hover {
 	.sect h2,
 	.sect h3,
 	.sect h4 {
-		font-size: 32px;
+		font-size: 40px;/*###32px*/
+		line-height: 113.33%;/*###120%*/
 	}
 
 	.sect p {
-		font-size: 16px;
+		font-size: 18px;/*###16px*/
+		line-height: 166.67%;/*###160%*/
 	}
 
 	.sect-1 .box-in {
 		height: 487px;/*@@@649px*/
-		padding: 152px 310px 0 0;
+		padding: 80px 330px 0 0;
 	}
 
 	.sect-1 h2 {
-		margin-bottom: 20px;
+		/*###margin-bottom: 27px;*/
 	}
 
 	.sect-2 .box-in {
@@ -579,7 +586,7 @@ a.but-appsto:hover {
 
 @media screen and (max-width: 760px) {
 	.sect {
-		padding: 40px 20px;
+		padding: 40px;
 	}
 
 	.box-in {
@@ -618,23 +625,29 @@ a.but-appsto:hover {
 	.sect h2,
 	.sect h3,
 	.sect h4 {
-		font-size: 27px;
+		font-size: 38px;/*###27px*/
+		line-height: 110%;/*###120%*/
 	}
 
 	.sect p {
-		font-size: 14px;
+		/*###font-size: 18px;14px*/
+		/*###line-height: 166.67%;160%*/
+	}
+
+	.sect-1 {
+		padding: 0 20px 50px 20px;
 	}
 
 	.sect-1 .box-in {
 		height: auto;/*@@@649px*/
-		padding: 0 0 424px 0;
+		padding: 0 20px calc(75.69% + 32px) 20px;/*=90%*649/686*/
 		background-position: 50% 100%;
-		background-size: auto 406px;
-		text-align: center;
+		background-size: 80% auto;
+		/*###text-align: center;*/
 	}
 
 	.sect-1 h2 {
-		margin-bottom: 17px;
+		margin-bottom: 25px;/*###*/
 	}
 
 	.sect-2 .box-in {
@@ -655,7 +668,7 @@ a.but-appsto:hover {
 		padding: 0 0 63% 0;
 		background-position: 40% 100%;
 		background-size: 31.06% auto;
-		text-align: center;
+		/*###text-align: center;*/
 	}
 
 	.sect-3 h4 {
@@ -724,7 +737,7 @@ a.but-appsto:hover {
 
 @media screen and (max-width: 480px) {
 	.sect {
-		padding: 20px 10px;
+		/*###padding: 40px 40px;*/
 	}
 
 	.box-in {
@@ -762,20 +775,27 @@ a.but-appsto:hover {
 	.sect h2,
 	.sect h3,
 	.sect h4 {
-		font-size: 22px;
+		font-size: 36px;/*###22px*/
+		line-height: 106.67%;/*###120%*/
 	}
 
 	.sect p {
-		font-size: 12px;
+		/*###font-size: 18px;12px*/
+		/*###line-height: 166.67%;160%*/
+	}
+
+	.sect-1 {
+		margin-top: -28px;
+		/*###padding: 0 20px 50px 20px;*/
 	}
 
 	.sect-1 .box-in {
-		padding: 0 0 340px 0;
-		background-size: auto 325px;
+		padding: 0 20px calc(94.61% + 32px) 20px;/*=100%*649/686*/
+		background-size: 100% auto;
 	}
 
 	.sect-1 h2 {
-		margin-bottom: 14px;
+		/*###margin-bottom: 25px;11px*/
 	}
 
 	.sect-2 .box-in {
