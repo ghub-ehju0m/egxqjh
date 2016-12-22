@@ -323,11 +323,14 @@ a.but-appsto:hover {
 
 
 .pg-bot {
-	position: relative;
 	height: 91px;
 	margin: -91px 0 0 0;
 	/*###padding: 0 0 0 0;*/
 	text-align: center;
+}
+
+.pg-bot .box-in {
+	position: relative;
 }
 
 .pg-bot p {
@@ -344,13 +347,19 @@ a.but-appsto:hover {
 }
 
 .bot-mail {
-	float: left;
-	margin: 17px 0 0 20px;
+	position: absolute;
+	left: 20px;
+	top: 17px;
+	/*###float: left;*/
+	/*###margin: 17px 0 0 20px;*/
 }
 
 .bot-copy {
-	float: right;
-	margin: 17px 20px 0 0;
+	position: absolute;
+	right: 20px;
+	top: 17px;
+	/*###float: right;*/
+	/*###margin: 17px 20px 0 0;*/
 }
 
 .bot-social {
@@ -395,7 +404,7 @@ a.but-appsto:hover {
 	.box-in {
 		width: 800px;
 
-		BACKGROUND-COLOR: RGBA(255, 255, 0, 0.2) !important;/*###*/
+		/*###BACKGROUND-COLOR: RGBA(255, 255, 0, 0.2) !important;*/
 	}
 
 	.pg-top {
@@ -490,7 +499,7 @@ a.but-appsto:hover {
 	.box-in {
 		width: 680px;
 
-		BACKGROUND-COLOR: RGBA(255, 0, 255, 0.2) !important;/*###*/
+		/*###BACKGROUND-COLOR: RGBA(255, 0, 255, 0.2) !important;*/
 	}
 
 	.pg-top {
@@ -559,7 +568,7 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		min-height: 285px;/*###*/
+		min-height: 290px;/*###*/
 	}
 
 	.sect-4 .box-in {
@@ -589,7 +598,7 @@ a.but-appsto:hover {
 	.box-in {
 		width: 100%;
 
-		BACKGROUND-COLOR: RGBA(0, 255, 255, 0.2) !important;/*###*/
+		/*###BACKGROUND-COLOR: RGBA(0, 255, 255, 0.2) !important;*/
 	}
 
 	.pg-top {
@@ -649,12 +658,12 @@ a.but-appsto:hover {
 	}
 
 	.sect-3 {
-		background-position: 35% 150px;/*^^^*/
+		background-position: 35% 125px;
 	}
 
 	.sect-3 .box-in {
-		height: auto;/*^^^441px*/
-		padding: 0 0 63% 0;/*^^^163px 0 0 326px*/
+		height: auto;
+		padding: 0 0 63% 0;
 		background-position: 40% 100%;
 		background-size: 31.06% auto;
 		text-align: center;
@@ -669,11 +678,11 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		min-height: 225px;/*###*/
+		min-height: 252px;/*###*/
 	}
 
 	.sect-4 .box-in {
-		bottom: 98px;
+		bottom: 118px;
 		left: 0;
 		margin-left: 0;
 		/*###padding-top: calc(-85px + 37.25%/2);*/
@@ -684,9 +693,42 @@ a.but-appsto:hover {
 	}
 
 	.pg-bot {
-		height: 59px;
-		margin-top: -59px;
-		/*###padding-top: 30px;*/
+		height: 91px;
+		margin-top: -91px;
+	}
+
+	.bot-mail,
+	.bot-copy {
+		position: static;
+		left: 0;
+		top: 0;
+	}
+
+	.bot-mail {
+		margin-bottom: 10px;
+	}
+
+	.bot-copy {
+		margin-top: 10px;
+	}
+
+	.bot-social {
+		width: 127px;
+		height: 33px;
+	}
+
+	.bot-social a {
+		width: 33px;
+		height: 33px;
+		background-size: auto 100%;
+	}
+
+	.bot-social a.ico-fb {
+		background-position: -36px 0;
+	}
+
+	.bot-social a.ico-appsto {
+		background-position: -74px 0;
 	}
 }
 
@@ -699,7 +741,7 @@ a.but-appsto:hover {
 
 	.box-in {
 
-		BACKGROUND-COLOR: RGBA(0, 0, 255, 0.2) !important;/*###*/
+		/*###BACKGROUND-COLOR: RGBA(0, 0, 255, 0.2) !important;*/
 	}
 
 	.pg-top {
@@ -755,7 +797,7 @@ a.but-appsto:hover {
 	}
 
 	.sect-3 {
-		background-position: 40% 60px;/*^^^*/
+		background-position: 40% 60px;
 	}
 
 	.sect-3 .box-in {
@@ -770,11 +812,11 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		min-height: 195px;/*###*/
+		min-height: 210px;/*###*/
 	}
 
 	.sect-4 .box-in {
-		bottom: 98px;
+		bottom: 108px;
 		left: 0;
 		margin-left: 0;
 		/*###padding-top: calc(-85px + 37.25%/2);*/
@@ -785,8 +827,5 @@ a.but-appsto:hover {
 	}
 
 	.pg-bot {
-		height: 49px;
-		margin-top: -49px;
-		/*###padding-top: 17px;*/
 	}
 }
