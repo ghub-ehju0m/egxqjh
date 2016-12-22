@@ -166,7 +166,7 @@ a:hover {
 
 .pg-top .box-in {
 	margin-top: -52.25%;
-	padding: 80px 15% 125px 15%;
+	padding: 80px 15% 130px 15%;
 	opacity: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	-ms-transform: translate3d(0, 0, 0);
@@ -401,7 +401,7 @@ a.but-appsto:hover {
 	}
 
 	.pg-top .box-in {
-		padding: 60px 12.5% 120px 12.5%;
+		padding: 60px 12.5% 130px 12.5%;
 	}
 
 	.pg-top h1 {
@@ -495,7 +495,7 @@ a.but-appsto:hover {
 	}
 
 	.pg-top .box-in {
-		padding: 40px 10% 115px 10%;
+		padding: 40px 10% 130px 10%;
 	}
 
 	.pg-top h1 {
@@ -590,10 +590,11 @@ a.but-appsto:hover {
 
 	.pg-top {
 		/*###min-height: 370px;*/
+		background-position: 61% 0;
 	}
 
 	.pg-top .box-in {
-		padding: 19px 10% 110px 10%;
+		padding: 19px 10% 130px 10%;
 	}
 
 	.pg-top h1 {
@@ -733,10 +734,11 @@ a.but-appsto:hover {
 
 	.pg-top {
 		/*###min-height: 330px;*/
+		/*^^^background-position: 61% 0;*/
 	}
 
 	.pg-top .box-in {
-		padding: 19px 10% 105px 10%;
+		padding: 19px 10% 130px 10%;
 	}
 
 	.pg-top h1 {
