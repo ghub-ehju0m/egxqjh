@@ -450,6 +450,10 @@ a.but-appsto:hover {
 		padding: 0 55px 364px 55px;
 	}
 
+	.sect-2 h3 {
+		/*###margin-bottom: 20px;*/
+	}
+
 	.sect-2 p {
 		margin-bottom: 57px !important;
 	}
@@ -546,6 +550,10 @@ a.but-appsto:hover {
 		padding: 0 40px 309px 40px;
 	}
 
+	.sect-2 h3 {
+		/*###margin-bottom: 20px;*/
+	}
+
 	.sect-2 p {
 		margin-bottom: 48px !important;
 	}
@@ -586,7 +594,7 @@ a.but-appsto:hover {
 
 @media screen and (max-width: 760px) {
 	.sect {
-		padding: 40px;
+		padding: 40px 20px;
 	}
 
 	.box-in {
@@ -640,7 +648,7 @@ a.but-appsto:hover {
 
 	.sect-1 .box-in {
 		height: auto;/*@@@649px*/
-		padding: 0 20px calc(75.69% + 32px) 20px;/*=90%*649/686*/
+		padding: 0 20px calc(75.69% + 32px) 20px;/*=80%*649/686*/
 		background-position: 50% 100%;
 		background-size: 80% auto;
 		/*###text-align: center;*/
@@ -650,9 +658,17 @@ a.but-appsto:hover {
 		margin-bottom: 25px;/*###*/
 	}
 
+	.sect-2 {
+		padding: 43px 20px 53px 20px;;
+	}
+
 	.sect-2 .box-in {
-		padding: 0 25px 43.89% 25px;
+		padding: 0 20px 43.89% 20px;/*=90%*455/933*/
 		background-size: 90% auto;
+	}
+
+	.sect-2 h3 {
+		margin-bottom: 25px;
 	}
 
 	.sect-2 p {
@@ -737,7 +753,7 @@ a.but-appsto:hover {
 
 @media screen and (max-width: 480px) {
 	.sect {
-		/*###padding: 40px 40px;*/
+		/*###padding: 40px 20px;*/
 	}
 
 	.box-in {
@@ -798,12 +814,21 @@ a.but-appsto:hover {
 		/*###margin-bottom: 25px;11px*/
 	}
 
+	.sect-2 {
+		/*###padding: 43px 20px 53px 20px;;*/
+	}
+
 	.sect-2 .box-in {
-		padding: 0 10px 43.89% 10px;
+		padding: 0 20px 48.77% 20px;/*=100%*455/933*/
+		background-size: 100% auto;
+	}
+
+	.sect-2 h3 {
+		/*###margin-bottom: 25px;*/
 	}
 
 	.sect-2 p {
-		margin-bottom: 24px !important;
+		margin-bottom: 32px !important;
 	}
 
 	.sect-3 {
