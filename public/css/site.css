@@ -220,6 +220,7 @@ a.but-appsto:hover {
 
 .sect {
 	position: relative;
+	overflow: hidden;
 }
 
 .sect h2,
@@ -682,8 +683,22 @@ a.but-appsto:hover {
 
 	.sect-3 {
 		padding: 43px 20px 56px 20px;
-		background-size: 790px auto;
-		background-position: 10% 30%;
+		/*###background-size: 790px auto;*/
+		/*###background-position: 10% 30%;*/
+		background: none;
+	}
+
+	.sect-3:before {
+		content: '';
+		position: absolute;
+		left: 50%;
+		bottom: 340px;
+		width: 790px;
+		height: 176px;
+		z-index: -1;
+		margin-left: -325px;
+		background: url('../img/sun_trail.png') 0 0 no-repeat;
+		background-size: 100%;
 	}
 
 	.sect-3 .box-in {
@@ -842,7 +857,12 @@ a.but-appsto:hover {
 
 	.sect-3 {
 		/*###padding: 43px 20px 56px 20px;*/
-		background-position: 37% 223px;
+		/*###background-position: 37% 223px;*/
+	}
+
+	.sect-3:before {
+		margin-left: calc(-395px + 30% - 38px);/*### 460x771: 100px; 340x679: 64px; */
+		bottom: calc(165.22% - 844px);/*### 460x771: 430px; 340x679: 278px; */
 	}
 
 	.sect-3 .box-in {
