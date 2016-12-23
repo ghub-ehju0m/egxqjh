@@ -309,13 +309,17 @@ a.but-appsto:hover {
 .sect-4 .box-in {
 	position: absolute;
 	left: 50%;
-	bottom: 182px;
+	bottom: 182px;/*###182px*/
 	margin-left: -500px;
 }
 
 .sect-4 h4 {
 	margin-bottom: 49px;
 	color: rgb(255, 255, 255);
+}
+
+.sect-4 h4 span {
+	white-space: nowrap;
 }
 
 
@@ -476,12 +480,12 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 .box-in {
-		bottom: 158px;
+		/*###bottom: ;158px*/
 		margin-left: -400px;
 	}
 
 	.sect-4 h4 {
-		margin-bottom: 39px;
+		margin-bottom: 45px;
 	}
 
 	.pg-bot {
@@ -576,12 +580,12 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 .box-in {
-		bottom: 128px;
+		/*###bottom: ;128px*/
 		margin-left: -340px;
 	}
 
 	.sect-4 h4 {
-		margin-bottom: 30px;
+		margin-bottom: 41px;
 	}
 
 	.pg-bot {
@@ -698,22 +702,24 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		min-height: 300px;/*###252px*/
+		min-height: 537px;/*###252px*/
+		background-position: 63% 100%;
 	}
 
 	.sect-4 .box-in {
-		bottom: 118px;
 		left: 0;
+		bottom: 243px;/*###118px*/
 		margin-left: 0;
+		padding: 0 40px;
 	}
 
 	.sect-4 h4 {
-		margin-bottom: 21px;
+		margin-bottom: 38px;/*###21px*/
 	}
 
 	.pg-bot {
-		height: 91px;
-		margin-top: -91px;
+		height: 165px;/*###91px*/
+		margin-top: -165px;/*###-91px*/
 	}
 
 	.bot-mail,
@@ -724,30 +730,30 @@ a.but-appsto:hover {
 	}
 
 	.bot-mail {
-		margin-bottom: 10px;
+		margin-bottom: 28px;/*###10px*/
 	}
 
 	.bot-copy {
-		margin-top: 10px;
+		margin-top: 28px;/*###10px*/
 	}
 
 	.bot-social {
-		width: 127px;
-		height: 33px;
+		/*###width: 127px;*/
+		/*###height: 33px;*/
 	}
 
 	.bot-social a {
-		width: 33px;
-		height: 33px;
-		background-size: auto 100%;
+		/*###width: 33px;*/
+		/*###height: 33px;*/
+		/*###background-size: auto 100%;*/
 	}
 
 	.bot-social a.ico-fb {
-		background-position: -36px 0;
+		/*###background-position: -36px 0;*/
 	}
 
 	.bot-social a.ico-appsto {
-		background-position: -74px 0;
+		/*###background-position: -74px 0;*/
 	}
 }
 
@@ -852,17 +858,17 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		min-height: 300px;/*###210px*/
+		/*###min-height: 537px;210px*/
 	}
 
 	.sect-4 .box-in {
-		bottom: 108px;
-		left: 0;
-		margin-left: 0;
+		/*###bottom: ;108px*/
+		/*###padding: 0 40px;*/
 	}
 
 	.sect-4 h4 {
-		margin-bottom: 12px;
+		margin-bottom: 35px;/*###12px*/
+		line-height: 105%;/*###106.67%*/
 	}
 
 	.pg-bot {
