@@ -300,6 +300,7 @@ a.but-appsto:hover {
 
 .sect-4 {
 	/*###position: relative;*/
+	min-height: 538px;
 	padding: 37.25% 0 0 0 !important;
 	background: url('../img/pg_bottom.jpg') 50% 100% no-repeat;
 	background-size: cover;
@@ -476,7 +477,7 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		min-height: 358px;
+		/*###min-height: 538px;358px*/
 	}
 
 	.sect-4 .box-in {
@@ -489,8 +490,8 @@ a.but-appsto:hover {
 	}
 
 	.pg-bot {
-		height: 80px;
-		margin-top: -80px;
+		height: 91px;/*###80px*/
+		margin-top: -91px;/*###-80px*/
 	}
 }
 
@@ -576,7 +577,7 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		min-height: 290px;
+		/*###min-height: 538px;290px*/
 	}
 
 	.sect-4 .box-in {
@@ -589,8 +590,8 @@ a.but-appsto:hover {
 	}
 
 	.pg-bot {
-		height: 69px;
-		margin-top: -69px;
+		height: 91px;/*###69px*/
+		margin-top: -91px;/*###-69px*/
 	}
 }
 
@@ -702,7 +703,7 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		min-height: 537px;/*###252px*/
+		/*###min-height: 538px;252px*/
 		background-position: 63% 100%;
 	}
 
@@ -858,12 +859,12 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		/*###min-height: 537px;210px*/
+		/*###min-height: 538px;210px*/
 	}
 
 	.sect-4 .box-in {
 		/*###bottom: ;108px*/
-		/*###padding: 0 40px;*/
+		padding: 0 60px;
 	}
 
 	.sect-4 h4 {
