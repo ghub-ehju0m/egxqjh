@@ -380,11 +380,11 @@ a.but-appsto:hover {
 	transition: opacity 0.4s linear;
 }
 
-.bot-social a.ico-tw {
+.bot-social a.ico-fb {
 	background-position: 0 0;
 }
 
-.bot-social a.ico-fb {
+.bot-social a.ico-tw {
 	background-position: -48px 0;
 }
 
