@@ -166,7 +166,7 @@ a:hover {
 
 .pg-top .box-in {
 	margin-top: -52.25%;
-	padding: 80px 15% 130px 15%;
+	padding: 80px 0 130px 0;
 	opacity: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	-ms-transform: translate3d(0, 0, 0);
@@ -186,7 +186,7 @@ a:hover {
 .pg-top h1 {
 	display: inline-block;
 	margin: 0 0 58px 0;
-	padding: 135px 0 0 0;
+	padding: 139px 0 0 0;
 	background: url('../img/logo.png') 50% 0 no-repeat;
 	font-size: 55px;
 	font-weight: bold;
@@ -194,7 +194,8 @@ a:hover {
 }
 
 .pg-top h3 {
-	margin: 0 0 62px 0;
+	width: 580px;
+	margin: 0 auto 58px auto;
 	font-size: 24px;/*###*/
 	line-height: 140%;
 	color: rgb(255, 255, 255);
@@ -411,18 +412,19 @@ a.but-appsto:hover {
 	}
 
 	.pg-top .box-in {
-		padding: 60px 12.5% 130px 12.5%;
+		padding-top: 60px;
 	}
 
 	.pg-top h1 {
 		margin-bottom: 50px;/*###*/
-		padding-top: 136px;/*###120px*/
+		padding-top: 140px;
 		font-size: 52px;/*###48px*/
 		/*###background-size: 105px 105px;*/
 	}
 
 	.pg-top h3 {
-		margin-bottom: 54px;/*###*/
+		width: 530px;
+		margin-bottom: 50px;
 		font-size: 22px;/*###*/
 		line-height: 146.7%;/*###*/
 	}
@@ -510,18 +512,19 @@ a.but-appsto:hover {
 	}
 
 	.pg-top .box-in {
-		padding: 40px 10% 130px 10%;
+		padding-top: 40px;
 	}
 
 	.pg-top h1 {
 		margin-bottom: 42px;/*###*/
-		padding-top: 136px;/*###105px*/
+		/*###padding-top: 140px;*/
 		font-size: 52px;/*###42px*/
 		/*###background-size: 90px 90px;*/
 	}
 
 	.pg-top h3 {
-		margin-bottom: 46px;/*###*/
+		width: 470px;
+		margin-bottom: 42px;
 		font-size: 20px;/*###*/
 		line-height: 153.3%;/*###*/
 	}
@@ -615,18 +618,19 @@ a.but-appsto:hover {
 	}
 
 	.pg-top .box-in {
-		padding: 19px 10% 130px 10%;
+		padding-top: 19px;
 	}
 
 	.pg-top h1 {
 		margin-bottom: 35px;/*###*/
-		padding-top: 138px;/*###90px*/
+		padding-top: 142px;
 		font-size: 48px;/*###36px*/
 		/*###background-size: 75px 75px;*/
 	}
 
 	.pg-top h3 {
-		margin-bottom: 39px;/*###*/
+		width: 435px;
+		margin-bottom: 35px;
 		font-size: 19px;/*###*/
 		line-height: 160%;/*###*/
 	}
@@ -791,18 +795,19 @@ a.but-appsto:hover {
 	}
 
 	.pg-top .box-in {
-		padding: 19px 10% 130px 10%;
+		/*###padding-top: 19px;*/
 	}
 
 	.pg-top h1 {
 		margin-bottom: 28px;/*###30px*/
-		padding-top: 138px;/*###75px*/
+		/*###padding-top: 142px;*/
 		font-size: 48px;/*###30px*/
 		/*###background-size: 60px 60px;*/
 	}
 
 	.pg-top h3 {
-		margin-bottom: 32px;/*###30px*/
+		width: auto;
+		margin: 0 5% 27px 5%;
 		font-size: 18px;/*###12px*/
 		line-height: 166.7%;
 	}
