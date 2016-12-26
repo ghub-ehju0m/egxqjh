@@ -695,14 +695,15 @@ a.but-appsto:hover {
 	.sect-3:before {
 		content: '';
 		position: absolute;
-		left: 50%;
-		bottom: 340px;
-		width: 790px;
-		height: 176px;
+		left: 106px;/*###50%*/
+		bottom: 56px;/*###340px*/
+		width: calc(100% - 40px);/*###790px*/
+		height: 95px;/*###*/
+		padding-bottom: 365px;
 		z-index: -1;
-		margin-left: -325px;
-		background: url('../img/sun_trail.png') 0 0 no-repeat;
-		background-size: 100%;
+		/*###margin-left: ;-325px*/
+		background: url('../img/sun_trail.png') 50% 0 no-repeat;
+		background-size: 790px auto;/*###100%*/
 	}
 
 	.sect-3 .box-in {
@@ -866,8 +867,25 @@ a.but-appsto:hover {
 	}
 
 	.sect-3:before {
-		margin-left: calc(-395px + 30% - 38px);/*### 460x771: 100px; 340x679: 64px; */
-		bottom: calc(165.22% - 844px);/*### 460x771: 430px; 340x679: 278px; */
+		left: calc(26.43% + 6px);/*###50%*/
+/*
+460 -> +22px
+	a*w + b = a*4.6 + b = 128
+
+320 -> -15px
+	a*w + b = a*3.2 + b = 91
+
+	a = (128-91)/(4.6-3.2) = 37/1.4 = 26.43
+	b = 91 - 26.43*3.2 = 6(.424)
+	b = 128 - 26.43*4.6 = 6(.422)
+*/
+
+		height: 51px;/*###*/
+		/*###margin-left: calc(-395px + 30% - 38px); 460x771: 100px; 340x679: 64px; */
+		/*###bottom: calc(165.22% - 844px); 460x771: 430px; 340x679: 278px; */
+		padding-bottom: 108.65%;
+
+		BACKGROUND-COLOR: CYAN;/*###*/
 	}
 
 	.sect-3 .box-in {
