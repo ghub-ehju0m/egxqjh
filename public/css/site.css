@@ -56,8 +56,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	-webkit-font-smoothing: antialiased;/*@@@subpixel-antialiased*/
-	/*@@@-webkit-backface-visibility: hidden;*/
+	-webkit-font-smoothing: antialiased;/*subpixel-antialiased*/
+	/*-webkit-backface-visibility: hidden;*/
 	line-height: 120%;
 	font-weight: normal;
 }
@@ -139,11 +139,10 @@ a:hover {
 	max-width: 100%;
 	margin: 0 auto;
 
-	/*###BACKGROUND-COLOR: RGBA(0, 255, 255, 0.2) !important;*/
+
 }
 
 .pg-top {
-	/*###min-height: 640px;*/
 	padding: 52.25% 0 0 0;
 	background: url('../img/pg_top.jpg') 50% 0 no-repeat;
 	background-size: cover;
@@ -196,7 +195,7 @@ a:hover {
 .pg-top h3 {
 	width: 580px;
 	margin: 0 auto 58px auto;
-	font-size: 24px;/*###*/
+	font-size: 24px;
 	line-height: 140%;
 	color: rgb(255, 255, 255);
 }
@@ -227,12 +226,12 @@ a.but-appsto:hover {
 .sect h2,
 .sect h3,
 .sect h4 {
-	font-size: 44px;/*###*/
+	font-size: 44px;
 	font-weight: bold;
 }
 
 .sect p {
-	font-size: 20px;/*###*/
+	font-size: 20px;
 	line-height: 160%;
 }
 
@@ -254,7 +253,7 @@ a.but-appsto:hover {
 }
 
 .sect-1 h2 {
-	margin: 0 0 27px 0;/*###*/
+	margin: 0 0 27px 0;
 }
 
 
@@ -266,7 +265,6 @@ a.but-appsto:hover {
 }
 
 .sect-2 .box-in {
-	/*@@@height: 663px;*/
 	padding: 0 70px 455px 70px;
 	background: url('../img/sec_2.jpg') 50% 100% no-repeat;
 	background-size: 93.3% auto;
@@ -301,7 +299,6 @@ a.but-appsto:hover {
 
 
 .sect-4 {
-	/*###position: relative;*/
 	min-height: 538px;
 	padding: 37.25% 0 0 0 !important;
 	background: url('../img/pg_bottom.jpg') 50% 100% no-repeat;
@@ -312,7 +309,7 @@ a.but-appsto:hover {
 .sect-4 .box-in {
 	position: absolute;
 	left: 50%;
-	bottom: 182px;/*###182px*/
+	bottom: 182px;
 	margin-left: -500px;
 }
 
@@ -403,12 +400,9 @@ a.but-appsto:hover {
 @media screen and (max-width: 1200px) {
 	.box-in {
 		width: 800px;
-
-		/*###BACKGROUND-COLOR: RGBA(255, 255, 0, 0.2) !important;*/
 	}
 
 	.pg-top {
-		/*###min-height: 550px;*/
 	}
 
 	.pg-top .box-in {
@@ -416,42 +410,37 @@ a.but-appsto:hover {
 	}
 
 	.pg-top h1 {
-		margin-bottom: 50px;/*###*/
+		margin-bottom: 50px;
 		padding-top: 140px;
-		font-size: 52px;/*###48px*/
-		/*###background-size: 105px 105px;*/
+		font-size: 52px;
 	}
 
 	.pg-top h3 {
 		width: 530px;
 		margin-bottom: 50px;
-		font-size: 22px;/*###*/
-		line-height: 146.7%;/*###*/
+		font-size: 22px;
+		line-height: 146.7%;
 	}
 
 	a.but-appsto {
-		/*###width: 185px;*/
-		/*###height: 61px;*/
 	}
 
 	.sect h2,
 	.sect h3,
 	.sect h4 {
-		font-size: 42px;/*###38px*/
-		line-height: 116.67%;/*###120%*/
+		font-size: 42px;
+		line-height: 116.67%;
 	}
 
 	.sect p {
-		/*###font-size: 20px;18px*/
 	}
 
 	.sect-1 .box-in {
-		height: 568px;/*@@@649px*/
+		height: 568px;
 		padding: 120px 380px 0 0;
 	}
 
 	.sect-1 h2 {
-		/*###margin-bottom: 27px;*/
 	}
 
 	.sect-2 .box-in {
@@ -459,7 +448,6 @@ a.but-appsto:hover {
 	}
 
 	.sect-2 h3 {
-		/*###margin-bottom: 20px;*/
 	}
 
 	.sect-2 p {
@@ -480,11 +468,9 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		/*###min-height: 538px;358px*/
 	}
 
 	.sect-4 .box-in {
-		/*###bottom: ;158px*/
 		margin-left: -400px;
 	}
 
@@ -493,8 +479,8 @@ a.but-appsto:hover {
 	}
 
 	.pg-bot {
-		height: 91px;/*###80px*/
-		margin-top: -91px;/*###-80px*/
+		height: 91px;
+		margin-top: -91px;
 	}
 }
 
@@ -503,12 +489,9 @@ a.but-appsto:hover {
 @media screen and (max-width: 960px) {
 	.box-in {
 		width: 680px;
-
-		/*###BACKGROUND-COLOR: RGBA(255, 0, 255, 0.2) !important;*/
 	}
 
 	.pg-top {
-		/*###min-height: 460px;*/
 	}
 
 	.pg-top .box-in {
@@ -516,43 +499,39 @@ a.but-appsto:hover {
 	}
 
 	.pg-top h1 {
-		margin-bottom: 42px;/*###*/
-		/*###padding-top: 140px;*/
-		font-size: 52px;/*###42px*/
-		/*###background-size: 90px 90px;*/
+		margin-bottom: 42px;
+
+		font-size: 52px;
 	}
 
 	.pg-top h3 {
 		width: 470px;
 		margin-bottom: 42px;
-		font-size: 20px;/*###*/
-		line-height: 153.3%;/*###*/
+		font-size: 20px;
+		line-height: 153.3%;
 	}
 
 	a.but-appsto {
-		/*###width: 157px;*/
-		/*###height: 52px;*/
 	}
 
 	.sect h2,
 	.sect h3,
 	.sect h4 {
-		font-size: 40px;/*###32px*/
-		line-height: 113.33%;/*###120%*/
+		font-size: 40px;
+		line-height: 113.33%;
 	}
 
 	.sect p {
-		font-size: 18px;/*###16px*/
-		line-height: 166.67%;/*###160%*/
+		font-size: 18px;
+		line-height: 166.67%;
 	}
 
 	.sect-1 .box-in {
-		height: 487px;/*@@@649px*/
+		height: 487px;
 		padding: 80px 330px 0 0;
 	}
 
 	.sect-1 h2 {
-		/*###margin-bottom: 27px;*/
 	}
 
 	.sect-2 .box-in {
@@ -560,7 +539,6 @@ a.but-appsto:hover {
 	}
 
 	.sect-2 h3 {
-		/*###margin-bottom: 20px;*/
 	}
 
 	.sect-2 p {
@@ -581,11 +559,9 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		/*###min-height: 538px;290px*/
 	}
 
 	.sect-4 .box-in {
-		/*###bottom: ;128px*/
 		margin-left: -340px;
 	}
 
@@ -594,8 +570,8 @@ a.but-appsto:hover {
 	}
 
 	.pg-bot {
-		height: 91px;/*###69px*/
-		margin-top: -91px;/*###-69px*/
+		height: 91px;
+		margin-top: -91px;
 	}
 }
 
@@ -608,12 +584,9 @@ a.but-appsto:hover {
 
 	.box-in {
 		width: 100%;
-
-		/*###BACKGROUND-COLOR: RGBA(0, 0, 255, 0.2) !important;*/
 	}
 
 	.pg-top {
-		/*###min-height: 370px;*/
 		background-position: 61% 0;
 	}
 
@@ -622,34 +595,29 @@ a.but-appsto:hover {
 	}
 
 	.pg-top h1 {
-		margin-bottom: 35px;/*###*/
+		margin-bottom: 35px;
 		padding-top: 142px;
-		font-size: 48px;/*###36px*/
-		/*###background-size: 75px 75px;*/
+		font-size: 48px;
 	}
 
 	.pg-top h3 {
 		width: 435px;
 		margin-bottom: 35px;
-		font-size: 19px;/*###*/
-		line-height: 160%;/*###*/
+		font-size: 19px;
+		line-height: 160%;
 	}
 
 	a.but-appsto {
-		/*###width: 130px;*/
-		/*###height: 43px;*/
 	}
 
 	.sect h2,
 	.sect h3,
 	.sect h4 {
-		font-size: 38px;/*###27px*/
-		line-height: 110%;/*###120%*/
+		font-size: 38px;
+		line-height: 110%;
 	}
 
 	.sect p {
-		/*###font-size: 18px;14px*/
-		/*###line-height: 166.67%;160%*/
 	}
 
 	.sect-1 {
@@ -657,15 +625,14 @@ a.but-appsto:hover {
 	}
 
 	.sect-1 .box-in {
-		height: auto;/*@@@649px*/
+		height: auto;
 		padding: 0 20px calc(75.69% + 32px) 20px;/*=80%*649/686*/
 		background-position: 50% 100%;
 		background-size: 80% auto;
-		/*###text-align: center;*/
 	}
 
 	.sect-1 h2 {
-		margin-bottom: 25px;/*###*/
+		margin-bottom: 25px;
 	}
 
 	.sect-2 {
@@ -687,23 +654,23 @@ a.but-appsto:hover {
 
 	.sect-3 {
 		padding: 43px 20px 56px 20px;
-		/*###background-size: 790px auto;*/
-		/*###background-position: 10% 30%;*/
+
+
 		background: none;
 	}
 
 	.sect-3:before {
 		content: '';
 		position: absolute;
-		left: 76px;/*###50%*/
-		bottom: 56px;/*###340px*/
-		width: calc(100% + 300px);/*###790px*/
-		height: 95px;/*###*/
+		left: 76px;
+		bottom: 56px;
+		width: calc(100% + 300px);
+		height: 95px;
 		padding-bottom: 365px;
 		z-index: -1;
-		margin-left: -150px;/*###-325px*/
+		margin-left: -150px;
 		background: url('../img/sun_trail.png') 50% 0 no-repeat;
-		background-size: 790px auto;/*###100%*/
+		background-size: 790px auto;
 	}
 
 	.sect-3 .box-in {
@@ -711,11 +678,10 @@ a.but-appsto:hover {
 		padding: 0 15px 365px 15px;/*=180px*649/320*/
 		background-position: 50% 100%;
 		background-size: 180px auto;
-		/*###text-align: center;*/
 	}
 
 	.sect-3 h4 {
-		margin-bottom: 26px;/*###14px*/
+		margin-bottom: 26px;
 	}
 
 	.sect-3 p {
@@ -723,24 +689,23 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		/*###min-height: 538px;252px*/
 		background-position: 63% 100%;
 	}
 
 	.sect-4 .box-in {
 		left: 0;
-		bottom: 243px;/*###118px*/
+		bottom: 243px;
 		margin-left: 0;
 		padding: 0 40px;
 	}
 
 	.sect-4 h4 {
-		margin-bottom: 38px;/*###21px*/
+		margin-bottom: 38px;
 	}
 
 	.pg-bot {
-		height: 165px;/*###91px*/
-		margin-top: -165px;/*###-91px*/
+		height: 165px;
+		margin-top: -165px;
 	}
 
 	.bot-mail,
@@ -751,30 +716,23 @@ a.but-appsto:hover {
 	}
 
 	.bot-mail {
-		margin-bottom: 28px;/*###10px*/
+		margin-bottom: 28px;
 	}
 
 	.bot-copy {
-		margin-top: 28px;/*###10px*/
+		margin-top: 28px;
 	}
 
 	.bot-social {
-		/*###width: 127px;*/
-		/*###height: 33px;*/
 	}
 
 	.bot-social a {
-		/*###width: 33px;*/
-		/*###height: 33px;*/
-		/*###background-size: auto 100%;*/
 	}
 
 	.bot-social a.ico-fb {
-		/*###background-position: -36px 0;*/
 	}
 
 	.bot-social a.ico-appsto {
-		/*###background-position: -74px 0;*/
 	}
 }
 
@@ -782,57 +740,45 @@ a.but-appsto:hover {
 
 @media screen and (max-width: 480px) {
 	.sect {
-		/*###padding: 40px 20px;*/
 	}
 
 	.box-in {
-
-		/*###BACKGROUND-COLOR: RGBA(128, 0, 128, 0.2) !important;*/
 	}
 
 	.pg-top {
-		/*###min-height: 330px;*/
-		/*^^^background-position: 61% 0;*/
 	}
 
 	.pg-top .box-in {
-		/*###padding-top: 19px;*/
 	}
 
 	.pg-top h1 {
-		margin-bottom: 28px;/*###30px*/
-		/*###padding-top: 142px;*/
-		font-size: 48px;/*###30px*/
-		/*###background-size: 60px 60px;*/
+		margin-bottom: 28px;
+
+		font-size: 48px;
 	}
 
 	.pg-top h3 {
 		width: auto;
 		margin: 0 5% 27px 5%;
-		font-size: 18px;/*###12px*/
+		font-size: 18px;
 		line-height: 166.7%;
 	}
 
 	a.but-appsto {
-		/*###width: 106px;*/
-		/*###height: 35px;*/
 	}
 
 	.sect h2,
 	.sect h3,
 	.sect h4 {
-		font-size: 36px;/*###22px*/
-		line-height: 106.67%;/*###120%*/
+		font-size: 36px;
+		line-height: 106.67%;
 	}
 
 	.sect p {
-		/*###font-size: 18px;12px*/
-		/*###line-height: 166.67%;160%*/
 	}
 
 	.sect-1 {
 		margin-top: -28px;
-		/*###padding: 0 20px 50px 20px;*/
 	}
 
 	.sect-1 .box-in {
@@ -841,11 +787,9 @@ a.but-appsto:hover {
 	}
 
 	.sect-1 h2 {
-		/*###margin-bottom: 25px;11px*/
 	}
 
 	.sect-2 {
-		/*###padding: 43px 20px 53px 20px;;*/
 	}
 
 	.sect-2 .box-in {
@@ -854,7 +798,6 @@ a.but-appsto:hover {
 	}
 
 	.sect-2 h3 {
-		/*###margin-bottom: 25px;*/
 	}
 
 	.sect-2 p {
@@ -862,15 +805,13 @@ a.but-appsto:hover {
 	}
 
 	.sect-3 {
-		/*###padding: 43px 20px 56px 20px;*/
-		/*###background-position: 37% 223px;*/
 	}
 
 	.sect-3:before {
-		left: calc(26.43% - 24px);/*###50%*/
-		height: 51px;/*###*/
-		/*###margin-left: calc(-395px + 30% - 38px); 460x771: 100px; 340x679: 64px; */
-		/*###bottom: calc(165.22% - 844px); 460x771: 430px; 340x679: 278px; */
+		left: calc(26.43% - 24px);
+		height: 51px;
+
+
 		padding-bottom: 108.65%;
 	}
 
@@ -880,7 +821,7 @@ a.but-appsto:hover {
 	}
 
 	.sect-3 h4 {
-		margin-bottom: 26px;/*###12px*/
+		margin-bottom: 26px;
 	}
 
 	.sect-3 p {
@@ -888,17 +829,15 @@ a.but-appsto:hover {
 	}
 
 	.sect-4 {
-		/*###min-height: 538px;210px*/
 	}
 
 	.sect-4 .box-in {
-		/*###bottom: ;108px*/
 		padding: 0 60px;
 	}
 
 	.sect-4 h4 {
-		margin-bottom: 35px;/*###12px*/
-		line-height: 105%;/*###106.67%*/
+		margin-bottom: 35px;
+		line-height: 105%;
 	}
 
 	.pg-bot {
