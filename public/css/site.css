@@ -138,8 +138,6 @@ a:hover {
 	width: 1000px;
 	max-width: 100%;
 	margin: 0 auto;
-
-
 }
 
 .pg-top {
@@ -500,7 +498,6 @@ a.but-appsto:hover {
 
 	.pg-top h1 {
 		margin-bottom: 42px;
-
 		font-size: 52px;
 	}
 
@@ -653,9 +650,7 @@ a.but-appsto:hover {
 	}
 
 	.sect-3 {
-		padding: 43px 20px 56px 20px;
-
-
+		padding: 43px 0 56px 0;
 		background: none;
 	}
 
@@ -674,7 +669,9 @@ a.but-appsto:hover {
 	}
 
 	.sect-3 .box-in {
+		width: auto;
 		height: auto;
+		margin: 0 20px;
 		padding: 0 15px 365px 15px;/*=180px*649/320*/
 		background-position: 50% 100%;
 		background-size: 180px auto;
@@ -753,7 +750,6 @@ a.but-appsto:hover {
 
 	.pg-top h1 {
 		margin-bottom: 28px;
-
 		font-size: 48px;
 	}
 
@@ -810,8 +806,6 @@ a.but-appsto:hover {
 	.sect-3:before {
 		left: calc(26.43% - 24px);
 		height: 51px;
-
-
 		padding-bottom: 108.65%;
 	}
 
